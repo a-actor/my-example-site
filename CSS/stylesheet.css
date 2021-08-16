@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+#header {
+    max-width: 100%;
+    margin: auto;
+    top: 0;
+}
+li a {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+    margin: 0px auto;
+    padding: 8px;
+    float: left;
+}
+
+.Help {
+    float: right;
+    padding-right: 45px;
+}
+.Login {
+    float: right;
+}
+.Sign-Up {
+    float: right;
+}
+#banner {
+    clear: both;
+    position: relative;
+    height: 500px;
+    width: 100%;
+    background: url("https://s3.amazonaws.com/codecademy-content/courses/ltp/img/lodging.png") no-repeat;
+}
+
+#wapper {
+    background-color: #f8f4f4;
+}
+
+.body1 {
+    clear: both;
+    background: #f0ecec;
+    overflow: auto;
+    display: block;
+}
+
+.listpic {
+    background: no-repeat 100%;
+    margin: 0px 0px 0px 0px;
+}
+.col img {
+    max-width: 100%;
+    height: auto;
+    padding: 19px 20px 10px 20px;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.content {
+    color: white;
+    font-family: Bookman Old Style, Cochin, Georgia, Times, Times New Roman, serif;
+    position: absolute;
+    top: 125px;
+    left: 30px;
+}
+
+h1 p {
+    margin-top: 20px;
+}
+
+.col {
+    float: left;
+    width: 33.33%;
+    height: auto;
+}
+
+div > a {
+    text-decoration: none;
+    color: deepskyblue;
+    padding-bottom: 40px;
+}
+
